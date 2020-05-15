@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   bind-dns:
-    image: patklaey/bind-dns:latest
+    image: patklaey/bind-dns:0.1
     container_name: bind-dns
     restart: always
     network_mode: "host"
