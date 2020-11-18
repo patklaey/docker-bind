@@ -8,3 +8,5 @@ services:
     network_mode: "host"
     volumes:
       - ./db.patklaey.ch:/etc/bind/zones/db.patklaey.ch
+      - ./named.conf:/etc/bind/named.conf
+      
