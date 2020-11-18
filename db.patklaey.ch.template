@@ -12,11 +12,11 @@ $TTL 1H
                         1D )            ; minimum, seconds
 ;
                 NS	ns              ; Inet Address of name server
-		A	your-ip-here
+		A	your-public-ip-here	
 ;
-;localhost       A	127.0.0.1
-ns              A	your-ip-here
-www		A	your-ip-here
+;localhost      A	127.0.0.1
+ns              A	your-public-ip-here
+www		A	your-public-ip-here
 images		CNAME	www
 ;images-old	CNAME	www
 blog		CNAME	www
