@@ -12,18 +12,18 @@ $TTL 1H
                         1D )            ; minimum, seconds
 ;
                 NS	ns              ; Inet Address of name server
-		A	1.2.3.4
+		A	your-ip-here
 ;
-localhost       A	127.0.0.1
-ns              A	1.2.3.4
-www		A	1.2.3.4
+;localhost       A	127.0.0.1
+ns              A	your-ip-here
+www		A	your-ip-here
 images		CNAME	www
-images-old	CNAME	www
+;images-old	CNAME	www
 blog		CNAME	www
 wiki		CNAME	www
-webdav		CNAME	www
+;webdav		CNAME	www
 cloud		CNAME	www
-management	CNAME	www
+;management	CNAME	www
 zermatt-api	CNAME	www
 zermatt		CNAME	www
 brandi		CNAME	www
