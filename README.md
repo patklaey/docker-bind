@@ -9,12 +9,12 @@ Follow those simple steps:
     git clone https://github.com/patklaey/docker-bind
     cd docker-bind
     ```
-1. Copy the database template and fill it in (replace "your-public-ip-here" with your real public IP`(get it from [here](https://whatismyipaddress.com/)))
+1. Copy the database template and fill it in (replace "your-public-ip-here" with your real public IP (get it from [here](https://whatismyipaddress.com/)))
     ```bash
     cp db.patklaey.ch.template db.patklaey.ch
     vi db.patklaey.ch
     ```
-1. Copy the named.conf template and fill it in (replace "your-private-ip-here" with your real private IP (get it from ```ìp addr``))
+1. Copy the named.conf template and fill it in (replace "your-private-ip-here" with your real private IP (get it from ```ip addr```))
     ```bash
     cp named.conf.template named.conf
     vi named.conf
