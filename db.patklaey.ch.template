@@ -28,4 +28,5 @@ zermatt-api	CNAME	www
 zermatt		CNAME	www
 brandi		CNAME	www
 brandi-api	CNAME	www
-monitoring	CNAME	stats.uptimerobot.com.
+monitoring	CNAME	www
+uptime		CNAME	stats.uptimerobot.com.
